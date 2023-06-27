@@ -1,5 +1,7 @@
 function minDate(dates) {
   //write you code here
+	const sortedDates = [...dates].sort(); // Create a sorted copy of the input array
+  return sortedDates[0];
 }
 
 // Do not change the code
